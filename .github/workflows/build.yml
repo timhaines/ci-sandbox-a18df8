@@ -14,7 +14,6 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' || startsWith(github.ref, 'refs/tags/v') }}  # GUARD-LINE
     permissions:
       contents: write
       id-token: write # OIDC trusted publishing / provenance
