@@ -1,0 +1,14 @@
+{
+  "name": "@timhaines/preview-e2e-fixture",
+  "version": "0.0.1789592711",
+  "description": "Build harness fixture. Not a real library.",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timhaines/ci-sandbox-a18df8.git"
+  }
+}
